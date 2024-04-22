@@ -1,0 +1,6 @@
+@Palyavalaszto_HostAddress = http://localhost:5032
+
+GET {{Palyavalaszto_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

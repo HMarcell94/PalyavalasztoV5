@@ -1,0 +1,112 @@
+@page "/registrationco"
+@layout NoSidebarLayoutLayout
+<PageTitle>Registration-co</PageTitle>
+<style>
+ 
+ .center-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  display: flex; /* Engedélyezi a flexbox modelt */
+  flex-wrap: wrap; /* Engedélyezi a sorok tördelését, ha szükséges */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column; /* Címkék függőleges elhelyezése */
+  margin-bottom: 15px;
+}
+
+.form-label {
+  width: 100%;
+  margin-right: 10px;
+}
+
+.form-control {
+  flex: 1;
+  box-sizing: border-box;
+}
+
+.btn-primary {
+  margin-top: auto;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.div1, .div2, .div3, .div4 {
+  flex-basis: 50%; /* Minimum méret a divekhez */
+  width: 100%; /* Kezdeti szélesség */
+  height: 50%; /* Kezdeti magasság */
+  padding: 10px;
+}
+
+input {
+  width: 100%;
+}
+
+.additional-data-label {
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center; /* További adatok címkéjének középre igazítása */
+}
+
+</style>
+<RadzenColumn Size=12 Style="justify-content: center;">
+   <label Style="justify-content: center; position: relative; top: 5px; left: 39%; font-size: 60px;">További adatok</label>
+    <div class="MultiGlassEffect center-content centered" Style="width: 850px; height:fit-content;">
+
+        <div class="div1">
+            <div class="form-group">
+            <label for="cegnev">Cég neve:</label>
+            <input type="text" class="form-control" id="cegnev" name="cegnev" placeholder="Adja meg a cég nevét">
+            <label for="telefonszam">Telefonszám:</label>
+            <input type="tel" class="form-control" id="telefonszam" name="telefonszam" placeholder="Adja meg a telefonszámot">
+            </div>
+        </div>
+
+        <div class="div2">
+            <div class="form-group">
+            <label for="cim">Fizikai cím vagy székhely:</label>
+            <input type="text" class="form-control" id="cim" name="cim" placeholder="Adja meg a címet">
+            </div>
+            <div class="form-group">
+            <label for="logo">Logó feltöltése:</label>
+            <input type="file" class="form-control-file" id="logo" name="logo">
+            </div>
+        </div>
+
+        <div class="div3" style="height:fit-content;">
+            <div class="form-group">
+            <label for="merettipus">Cégméret, típus:</label>
+            <select class="form-control" id="merettipus" name="merettipus">
+                <option value="">Válasszon méretet és típust</option>
+                <option value="kis">Kisvállalkozás</option>
+                <option value="kozepes">Középvállalkozás</option>
+                <option value="nagy">Nagyvállalkozás</option>
+            </select>
+            </div>
+            <div class="form-group">
+            <label for="weboldal">A cég weboldalának címe:</label>
+            <input type="url" class="form-control" id="weboldal" name="weboldal" placeholder="Adja meg a weboldal URL-jét">
+            </div>
+        </div>
+
+        <div class="div4">
+            <div class="form-group">
+            <label for="szektor">Szektor vagy iparág:</label>
+            <input type="text" class="form-control" id="szektor" name="szektor" placeholder="Adja meg a szektort vagy iparágot">
+            </div>
+            <div class="form-group">
+            <label for="profil">Rövid leírás a cég profiljáról, tevékenységi köréről:</label>
+            <textarea class="form-control" id="profil" name="profil" rows="3"></textarea>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Tovább</button>
+    </div>
+</RadzenColumn>
+
