@@ -1,0 +1,79 @@
+@page "/new-hirdetes"
+@using System.Text
+@using Lib
+@using Microsoft.EntityFrameworkCore
+@using PalyavalsztoV4.Models.V41
+@using PalyavalsztoV4.Models.v4_1;
+@using PalyavalsztoV4.Data;
+
+
+<PageTitle>NewHirdetes</PageTitle>
+
+<RadzenRow Size=12>
+    <RadzenColumn Size=6 Style="justify-content: center;">
+        <div class="component_single MultiGlassEffect" style="width: 300px; height: 231px">
+            <div class="image-container" style="width: 100%; height: 105px"> 
+                <img id="uploaded-image" src="image.jpg" alt="Image">
+                <RadzenImage ref="@image" />
+            </div>
+            <div class="content-container" Style="color:black; padding: 5px;">
+                <h3 style="text-align: left; width: 100%; height: 31px; float: none">@j.JobTitle</h3>
+                <p style="width: 100%; height: 50px">@j.Short_Summary</p>
+            </div>
+            <div style="bottom: 2%; width: 50%; float: left;">
+                <p style="width: 50%; float: left; text-align: center;">@j.MinSalary</p> 
+                <p style="width: 50%; float: right; text-align: center;">@j.MaxSalary</p>
+            </div>
+            <div style="bottom: 2%; width: 50%; float: right;">
+                <p style="text-align: center;">@j.JobLocation</p>
+            </div>
+        </div>
+    </RadzenColumn>
+    <RadzenColumn>
+        <div class="file-uploader MultiGlassEffect" onclick="document.getElementById('file-input').click();">
+            <RadzenUpload Url="/Upload/upload" Auto="true" Complete="@(a => PictureUploaded(a))" />
+            <label for="file-input" class="uploader-content">
+                <div class="upload-icon" alt="Upload"></div>
+                <input type="file" id="file-input" onchange="loadImage(event)" class="w-100" style="display: none;" />
+                <span class="file-label">Fájl kiválasztása/módosítása</span>
+            </label>
+        </div>
+        <div class="MultiGlassEffect" Style="color: white; margin-top: 1rem; text-align: center; width: auto;">
+            <span>Ahhoz hogy szerkeszthesd a Hirdetés kártyát, kattints a szerkeszteni kívánt mezőre!</span>
+        </div>
+        <div style="width: 100%; justify-content: space-between; align-items: center;">
+            <RadzenButton style="width: auto; height: 37px; margin: 1rem; color: black; background-color: rgba(57, 180, 0, 1)" Click="SaveJob">Álláshirdetés mentése</RadzenButton>
+            <RadzenButton style="width: 170px; height: 37px; margin: 1rem; color: white; background-color: red" Click="SaveJob">Mégsem</RadzenButton>
+        </div>
+    </RadzenColumn>
+</RadzenRow>
+
+<RadzenRow>
+    <RadzenColumn Size=12 Class="MultiGlassEffect" Style="margin-top: 1rem; width: 800px; height: fit-content;">
+        <div style="margin: 1rem;">
+            <label class="center-content">A Hírdetés főoldalának szerkesztése</label>
+            <div style="margin-top: 1rem">
+                <InputText class="beviteli-mezo" id="inputJobTitle" @bind-Value="j.JobTitle" placeholder="Munka címe" />
+                <InputText class="beviteli-mezo" id="inputShort_description" @bind-Value="j.Short_Summary" placeholder="Kártya rövid leírása" />
+                <InputTextArea class="beviteli-mezo" style="background-color: whitesmoke;" id="inputJobDescription" @bind-Value="j.JobDescription" placeholder="Munka leírása"></InputTextArea>
+                <InputTextArea class="beviteli-mezo" style="background-color: whitesmoke;" id="inputjobRequirements" @bind-Value="j.JobRequirements" placeholder="Követelmények a munkavégzéshez"></InputTextArea>
+                <InputTextArea class="beviteli-mezo" style="background-color: whitesmoke;" id="inputExtras" @bind-Value="j.Extras" placeholder="Amit kínálunk / Munkahelyi extrák"></InputTextArea>
+                <div class="salary-range">
+                    <label>Minimum bér</label><InputText class="beviteli-mezo" id="minSalary" @bind-Value="j.MinSalary" placeholder="Minimum bér"></InputText>
+                    <label>Maximum bér</label><InputText class="beviteli-mezo" id="maxSalary" @bind-Value="j.MaxSalary" placeholder="Maximum bér"></InputText>
+                </div>
+                <InputText class="beviteli-mezo" id="inputJobLocation" @bind-Value="j.JobLocation" placeholder="Munkavégzés helye"/>
+            </div>
+        </div>
+    </RadzenColumn>
+</RadzenRow>
+
+<script>
+function loadImage(event) {
+    if (event.target.files.length > 0) {
+        var image = document.getElementById('uploaded-image');
+        image.src = URL.createObjectURL(event.target.files[0]);
+    }
+}
+</script>
+

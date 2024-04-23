@@ -1,0 +1,922 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.oswald-uniquifier {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.login_registr_bg {
+  justify-content: center; 
+  text-align: center; 
+  border-top-right-radius: 20px; 
+  border-bottom-right-radius: 20px; 
+  border-top-left-radius: 0px; 
+  border-bottom-left-radius: 0px;
+  justify-content: center; 
+  align-items: center; 
+  margin-top: 0px; 
+  width: 50%; 
+  height: 100vh;
+}
+@media (max-width: 800px) {
+    .login_registr_bg {
+        width: 100%;
+        
+    }
+}
+
+textarea {
+  background-color: transparent;
+  border-color: white;
+  width: auto; 
+  margin: 0.09rem;
+  resize: none !important; /* Letiltja a resize lehetőséget */
+  }
+#cim {
+  color:black; 
+  height: 31px; 
+  width: 100%;
+  float: none
+}
+#leiras {
+  position: relative; 
+  padding-bottom: 30px; 
+  width: 100%; 
+  height: 100px
+}
+#textarea-price {
+  position:relative; 
+  bottom:4px; 
+  left:4px; 
+  width: auto;
+  margin: 0.09rem!important;
+  margin-top: 0,09rem;
+}
+#textarea-lock {
+  position:absolute; 
+  bottom:4px; 
+  right:4px; 
+  width: auto;
+  margin: 0.09rem!important;
+}
+.ar-hely-div {
+  width: auto;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  display: flex; 
+  margin: 0.09rem!important;
+}
+.leiras-div {
+  width: auto; 
+  margin: 0.09rem;
+  position: relative; 
+  display: flex;
+}
+.cim-div {
+  width: auto; 
+  margin: 0.09rem;
+  position: relative; 
+  display: flex;
+  color: white;
+}
+/*------------------------------*/
+
+.component {
+  width: 33%;
+  height: auto;
+  max-width: 33%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.component_single {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.content-container {
+  width: 100%;
+  padding: 0px;
+  bottom: 20px;
+  flex: 1 0 21%; 
+  margin: 1%;
+}
+
+.content-container h3 {
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+.content-container p {
+  margin-bottom: 0;
+}
+
+/*------------------------------*/
+
+@keyframes floatDown() {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+#blazor-error-ui {
+    background: lightyellow;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.margin {
+  position: relative; 
+  left: 20px;
+  right: 20px;
+}
+
+#blazor-error-ui .dismiss {
+    cursor: pointer;
+    position: absolute;
+    right: 0.75rem;
+    top: 0.5rem;
+}
+
+.beviteli-mezo {
+  width: 100%;
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+}
+
+.reg-glass {
+  justify-content: center; 
+  text-align: center; 
+  border-top-left-radius: 20px; 
+  border-bottom-left-radius: 20px; 
+  border-top-right-radius: 0px; 
+  border-bottom-right-radius: 0px; 
+  align-items: center; 
+  margin-left: 0px; 
+  margin-top: 0px; 
+  width: 50%; 
+  height: 100vh; 
+  float: right
+}
+
+.radzen-login input[type="text"], .radzen-login input[type="password"], .radzen-login input[type="email"] {
+    background: rgba( 255, 255, 255, 0.25 ) !important;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ) !important;
+    backdrop-filter: blur( 4px ) !important;
+    -webkit-backdrop-filter: blur( 4px ) !important;
+    border-radius: 10px !important;
+    border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
+}
+
+.global-background {
+   background-image: url('/images/hatter.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.radzen-password {
+    background: rgba( 255, 255, 255, 0.25 ) !important;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ) !important;
+    backdrop-filter: blur( 4px ) !important;
+    -webkit-backdrop-filter: blur( 4px ) !important;
+    border-radius: 10px !important;
+    border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+/*------------------------------*/
+
+.btn-6 {
+  display: flex;
+  border-radius: 10px;
+  width: 120px;
+  height: 35px;
+  line-height: 40px;
+  font-size: 22px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+  margin: 5px; 
+  background-color: #831eff; 
+  justify-content: center; 
+  align-items: center;
+  margin-top: 20px;
+}
+
+.btn-6:after {
+  position: absolute;
+  content: "Bejelentkezés!";
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 0;
+  height: 100%;
+  border-radius: 10px;
+  background: #ff003b;
+  transition: all .35s;
+  color: #ffffff;
+}
+
+.btn-6:hover {
+  color: #fff;
+  border-radius: 10px;
+}
+
+.btn-6:hover:after {
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+/*------------------------------*/
+
+.btn-7 {
+  display: flex;
+  border-radius: 10px;
+  width: 120px;
+  height: 35px;
+  line-height: 40px;
+  font-size: 22px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+  margin: 5px; 
+  background-color: #831eff; 
+  justify-content: center; 
+  align-items: center;
+  margin-top: 20px;
+}
+
+.btn-7:after {
+  position: absolute;
+  content: "Regisztráció!";
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 0;
+  height: 100%;
+  border-radius: 10px;
+  background: #ff003b;
+  transition: all .35s;
+  color: #ffffff;
+}
+
+.btn-7:hover {
+  color: #fff;
+  border-radius: 10px;
+}
+
+.btn-7:hover:after {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/*------------------------------*/
+.btnAnimation {
+  border-radius: 10px;
+  line-height: 40px;
+  text-align: center;
+  icon: center;
+  position: relative;
+  transition: all .35s;
+  background-color: rgba(255, 0, 0, 0.2);
+}
+.btnAnimation:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 0;
+  height: 100%;
+  border-radius: 10px;
+  background-color: red !important;
+  transition: all .35s;
+}
+.btnAnimation:hover {
+  border-radius: 10px;
+
+}
+.btnAnimation:hover:after {
+  width: 100%;
+  border-radius: 10px;
+  background-color: red !important;
+}
+/*------------------------------*/
+
+.menu-option {
+  flex: 1; /* Az elemek egyenlő szélességének beállítása */
+  text-decoration: none; /* Eltávolítja az aláhúzás */
+  color: white; /* Fehér színű szöveg */
+  font-size: 16px; /* Betűméret */
+  font-weight: bold; /* Vastag betűtípus */
+  text-align: center; /* Szöveg középre igazítása */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px; /* Párnázás */
+  transition: all 0.3s ease-in-out; /* Áttűnés */
+}
+
+.menu-option:hover {
+  color: red!important;
+  transform: scale(1.1);
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent!important;
+  width: 100%; /* 100%-os szélesség a responzív viselkedéshez */
+  padding: 10px 20px; /* Párnázás a széleken */
+  border-radius: 10px; /* Lekerekített sarkok */
+}
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column; /* Függőleges elrendezés kis képernyőkön */
+    align-items: flex-start; /* Elemek vízszintes elrendezése a bal széltől */
+  }
+
+  .menu-option {
+    flex: 1 0 auto; /* Az elemek egyenlő szélességének beállítása kis képernyőkön */
+  }
+}
+
+.radzen-header {
+  margin: 0; /* Eltávolítja a margókat */
+  padding: 0; /* Eltávolítja a kitöltést */
+  width: 100%; /* 100%-os szélesség a responzív viselkedéshez */
+  position: relative; /* Relatív pozicionálás a `RadzenSidebarToggle` elem elhelyezéséhez */
+}
+
+/* Reszponzív stílusok */
+/* Kis képernyők (≥576px) */
+@media (min-width: 576px) {
+    .menu-option {
+        width: auto;
+        padding: 10px;
+    }
+}
+
+/* Közepes képernyők (≥768px) */
+@media (min-width: 768px) {
+    .menu-option {
+        width: auto;
+        padding: 10px;
+    }
+}
+/* Nagy képernyők (≥992px) */
+@media (min-width: 992px) {
+    .menu-option {
+        width: auto;
+        padding: 10px;
+    }
+}
+/* Extra nagy képernyők (≥1200px) */
+@media (min-width: 1200px) {
+    .menu-option {
+        width: auto;
+        padding: 10px;
+    }
+}
+
+.navButtons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.navButtons ul, a {
+    width 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+
+.navButtons a {
+    text-align: center;
+    padding: 0 30px;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+}
+
+.navButtons a:hover{
+    background-color: red;
+}
+
+input[type="checkbox"]:checked::before {
+    background-color: red;
+    border-color: red;
+}
+
+.centered {
+    position: absolute;
+    background-color: transparent!important;
+    vertical-align: baseline;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: auto; 
+    height: auto;
+}
+
+.centered-components {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*
+@media (min-width: 601px) {
+    .navButtons a {
+        flex: 1 0 auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .navButtons {
+        display: none;
+        flex-direction: column;
+    }
+    .navButtons a {
+        width: 100%;
+    }
+    .navButtons.show {
+        display: flex;
+    }
+}
+
+
+
+
+@keyframes SlideIn {
+  from {
+      transform: translateY(-300px);
+  }
+  to {
+      transform: translateY(0);
+  }
+} */
+
+/*-----------------------------------*/
+.logopulse {
+  width: 10px;
+  height: 10px;
+  background-size: 50%;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(logo.ico);
+  animation: scale 1s ease alternate-reverse infinite;
+}
+
+/* Reszponzív stílusok */
+/* Kis képernyők (≥576px) */
+@media (max-width: 991px) {
+    .logopulse {
+        display: none;
+    }
+}
+/* Nagy képernyők (≥992px) */
+@media (min-width: 970px) {
+    .logopulse {
+        width: auto;
+        padding: 10px;
+    }
+}
+/* Extra nagy képernyők (≥1200px) */
+@media (min-width: 1200px) {
+    .logopulse {
+        width: auto;
+        padding: 10px;
+    }
+}
+
+
+@keyframes scale {
+  to {
+    transform: scale(1.2);
+  }
+}
+/*-----------------------------------*/
+
+.transparent-scrollbar {
+  --scrollbar-width: 0.05rem;
+  --scrollbar-track-color: transparent;
+  --scrollbar-thumb-color: transparent;
+
+}
+
+.transparent-scrollbar::-webkit-scrollbar {
+  width: var(--scrollbar-width);
+}
+
+.transparent-scrollbar::-webkit-scrollbar-track {
+  background: var(--scrollbar-track-color);
+}
+
+.transparent-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb-color);
+}
+
+/*-----------------------------------*/
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+body::-webkit-scrollbar-track{
+  background: black;
+}
+body::-webkit-scrollbar-thumb{
+  background: #e60000;
+}
+
+.scrollbar {
+  --scrollbar-width: 0.25rem;
+  --scrollbar-track-color: black;
+  --scrollbar-thumb-color: #e60000;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: var(--scrollbar-width);
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  background: var(--scrollbar-track-color);
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb-color);
+}
+
+.container {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  min-width: 100%;
+}
+
+.mySidebar {
+    width: 15rem;
+    height: 100%;
+    position: fixed;
+}
+
+body.body-navbar {
+  margin-top: 0px;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    color: var(--rz-text-color);
+    font-size: var(--rz-body-font-size);
+    line-height: var(--rz-body-line-height);
+    background-image: url('/images/hatter.jpg')!important;
+    background-size: cover!important;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    background-attachment: fixed!important;
+    margin: 0;
+    padding: 0;
+}
+
+body .NoSidebarLayoutLayout {
+  margin: 0px !important;
+}
+
+body .MainLayout {
+  margin-top: 10px !important;
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-size: cover!important;
+    background-position: center center!important;
+  }
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.Logo {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -20px;
+  width: 150px;
+  height: 150px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  }
+
+  .col-sm-12 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.glassEffectCentered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 250px;
+    bottom: 10px;
+    left: 50px;
+    right: 50px;
+} 
+
+.glassEffect {
+    position: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.19);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.42);
+    margin: 0px 250px;
+    min-width: 400px;
+    min-height: 250px;
+}
+
+@media (max-width: 576px) {
+  .glassEffect {
+    margin: 20px 10px;
+  }
+}
+
+@media (min-width: 576px) {
+  .glassEffect {
+    margin: 20px 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .glassEffect {
+    margin: 20px 100px;
+  }
+}
+
+@media (min-width: 992px) {
+  .glassEffect {
+    margin: 20px 150px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .glassEffect {
+    margin: 20px 200px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .glassEffect {
+    margin: 20px 250px;
+  }
+}
+
+.image-container {
+  width: max-content;
+  padding: 0px;
+  overflow: hidden;
+  position: relative;
+  border-top-left-radius: 16px!important;
+  border-top-right-radius: 16px!important;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%; /* Módosítva 100%-ra */
+  object-fit: cover;
+}
+
+
+.image-container h3 {
+    top: 40px; 
+    left:3px; 
+}
+
+.image-container p {
+    top:70px; /* Beállítás a helyes pozícióra */
+    left:3px;
+    bottom: 20px;
+}
+
+.image-container span {
+   bottom :10px;
+   right :10px;
+}
+
+.image-container h3, .image-container p, .image-container span {
+    position: absolute;
+}
+
+.file-uploader {
+    height: 5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+.uploader-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.upload-icon {
+    background-image: url(/icons/Kepfeltoltes.ico);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.file-label {
+    color: black;
+    
+    font-size: 1.2rem;
+}
+
+.MultiGlassEffect {
+  background: rgba(255, 255, 255, 0.19);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.42);
+  margin-left: 0px!important;
+}
+
+.glassEffectnavbar {
+    position: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.19);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.42);
+    margin: 0px 250px;
+    min-width: 400px;
+    min-height: 250px;
+    margin-top: 0px !important;
+}
+
+@media (max-width: 576px) {
+  .glassEffectnavbar {
+    margin: 20px 10px;
+  }
+}
+
+@media (min-width: 576px) {
+  .glassEffectnavbar {
+    margin: 20px 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .glassEffectnavbar {
+    margin: 20px 100px;
+  }
+}
+
+@media (min-width: 992px) {
+  .glassEffectnavbar {
+    margin: 20px 150px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .glassEffectnavbar {
+    margin: 20px 200px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .glassEffectnavbar {
+    margin: 20px 250px;
+  }
+}
+
+.rz-body {
+    --rz-body-padding: 0;
+}
+
+a {
+    color: var(--rz-link-color);
+}
+
+a:hover,
+a:focus {
+    color: var(--rz-link-hover-color);
+}
+
+.blazor-error-boundary {
+    background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTYiIGhlaWdodD0iNDkiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIG92ZXJmbG93PSJoaWRkZW4iPjxkZWZzPjxjbGlwUGF0aCBpZD0iY2xpcDAiPjxyZWN0IHg9IjIzNSIgeT0iNTEiIHdpZHRoPSI1NiIgaGVpZ2h0PSI0OSIvPjwvY2xpcFBhdGg+PC9kZWZzPjxnIGNsaXAtcGF0aD0idXJsKCNjbGlwMCkiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yMzUgLTUxKSI+PHBhdGggZD0iTTI2My41MDYgNTFDMjY0LjcxNyA1MSAyNjUuODEzIDUxLjQ4MzcgMjY2LjYwNiA1Mi4yNjU4TDI2Ny4wNTIgNTIuNzk4NyAyNjcuNTM5IDUzLjYyODMgMjkwLjE4NSA5Mi4xODMxIDI5MC41NDUgOTIuNzk1IDI5MC42NTYgOTIuOTk2QzI5MC44NzcgOTMuNTEzIDI5MSA5NC4wODE1IDI5MSA5NC42NzgyIDI5MSA5Ny4wNjUxIDI4OS4wMzggOTkgMjg2LjYxNyA5OUwyNDAuMzgzIDk5QzIzNy45NjMgOTkgMjM2IDk3LjA2NTEgMjM2IDk0LjY3ODIgMjM2IDk0LjM3OTkgMjM2LjAzMSA5NC4wODg2IDIzNi4wODkgOTMuODA3MkwyMzYuMzM4IDkzLjAxNjIgMjM2Ljg1OCA5Mi4xMzE0IDI1OS40NzMgNTMuNjI5NCAyNTkuOTYxIDUyLjc5ODUgMjYwLjQwNyA1Mi4yNjU4QzI2MS4yIDUxLjQ4MzcgMjYyLjI5NiA1MSAyNjMuNTA2IDUxWk0yNjMuNTg2IDY2LjAxODNDMjYwLjczNyA2Ni4wMTgzIDI1OS4zMTMgNjcuMTI0NSAyNTkuMzEzIDY5LjMzNyAyNTkuMzEzIDY5LjYxMDIgMjU5LjMzMiA2OS44NjA4IDI1OS4zNzEgNzAuMDg4N0wyNjEuNzk1IDg0LjAxNjEgMjY1LjM4IDg0LjAxNjEgMjY3LjgyMSA2OS43NDc1QzI2Ny44NiA2OS43MzA5IDI2Ny44NzkgNjkuNTg3NyAyNjcuODc5IDY5LjMxNzkgMjY3Ljg3OSA2Ny4xMTgyIDI2Ni40NDggNjYuMDE4MyAyNjMuNTg2IDY2LjAxODNaTTI2My41NzYgODYuMDU0N0MyNjEuMDQ5IDg2LjA1NDcgMjU5Ljc4NiA4Ny4zMDA1IDI1OS43ODYgODkuNzkyMSAyNTkuNzg2IDkyLjI4MzcgMjYxLjA0OSA5My41Mjk1IDI2My41NzYgOTMuNTI5NSAyNjYuMTE2IDkzLjUyOTUgMjY3LjM4NyA5Mi4yODM3IDI2Ny4zODcgODkuNzkyMSAyNjcuMzg3IDg3LjMwMDUgMjY2LjExNiA4Ni4wNTQ3IDI2My41NzYgODYuMDU0N1oiIGZpbGw9IiNGRkU1MDAiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjwvZz48L3N2Zz4=) no-repeat 1rem/1.8rem, #b32121;
+    padding: 1rem 1rem 1rem 3.7rem;
+    color: white;
+}
+
+.blazor-error-boundary::after {
+    content: "An error has occurred."
+}
+
+.loading-progress {
+    position: relative;
+    display: block;
+    width: 8rem;
+    height: 8rem;
+    margin: 20vh auto 1rem auto;
+}
+
+.loading-progress circle {
+    fill: none;
+    stroke: #e0e0e0;
+    stroke-width: 0.6rem;
+    transform-origin: 50% 50%;
+    transform: rotate(-90deg);
+}
+
+.loading-progress circle:last-child {
+    stroke: #1b6ec2;
+    stroke-dasharray: calc(3.141 * var(--blazor-load-percentage, 0%) * 0.8), 500%;
+    transition: stroke-dasharray 0.05s ease-in-out;
+}
+
+.loading-progress-text {
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    inset: calc(20vh + 3.25rem) 0 auto 0.2rem;
+}
+
+.loading-progress-text:after {
+    content: var(--blazor-load-percentage-text, "Loading");
+}

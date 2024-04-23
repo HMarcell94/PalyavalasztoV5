@@ -1,0 +1,65 @@
+@page "/company-profile"
+
+<PageTitle>CompanyProfile</PageTitle>
+<RadzenRow>
+    <RadzenColumn Size="12" Style="height: 350px; width: 800px" Class="MultiGlassEffect">
+        <!--Cég profilképe-->
+        <div Style="height: 130px; width: 130px; border-radius: 50%; margin-top: 1rem; margin-left: 1rem;">
+            <img src="@userProfileImageUrl" style="height: 100%; width: 100%; object-fit: cover; border-radius: 50%;" />
+        </div>
+        <!--Cég neve-->
+        <div style="position: absolute; width: fit-content; height: auto; top: 1rem; margin-left: 10rem;">
+            <h1>Nestlé Hungária</h1>
+        </div>
+        <!--Cég elérhetőségei-->
+        <div Class="MultiGlassEffect" Style="position: absolute; width: 234px; height: 131px; float: right; margin-right: 1rem; left: 70%; top: 1rem;">
+            <ul>
+                <li>Telefonszám</li>
+                <li>Email cím</li>
+                <li>Hely</li>
+                <li>Egyéb</li>
+            </ul>
+        </div>
+        <!--Cég ismertetése-->
+        <div style="position: absolute; width: fit-content; height: auto; top: 150px; margin-left: 10rem;">
+            <h3 Style="font-size: 20px;" >Cég ismertetése:</h3>
+            <p Style="font-size: 15px;">A Nestlé egy több mint 150 éves múltra visszatekintő, a világ legnagyobb és legváltozatosabb élelmiszer- és italgyártó vállalata1. A cég székhelye Veveyben, Svájcban található2, és több mint 70 országban működnek leányvállalatai és fióktelepei.
+                                        A Nestlé termékportfóliója több mint 2000 márkát foglal magában, beleértve a Nespresso, a KitKat, a Purina ONE és sok más ismert márkát. A cég termékei 7 különböző kategóriába tartoznak, beleértve a kávét, az állateledelt és az előkészített ételeket. A Nestlé termékei minden életszakaszban megfelelnek a fogyasztói igényeknek.
+                                        A Nestlé globális jelenléttel rendelkezik, termékeit 188 országban értékesítik3. A cég öt zónára oszlik: Észak-Amerika, Latin-Amerika, Európa, Nagy-Kína és Ázsia, Óceánia, Afrika. A Nestlé világszerte több mint 500 000 gazdával dolgozik együtt.</p>
+        </div>
+    </RadzenColumn>
+</RadzenRow>
+
+@code {
+    
+    string userProfileImageUrl;
+    HttpClient httpClient = new HttpClient();
+/*
+    protected override async Task OnInitializedAsync()
+    {
+        userProfileImageUrl = await GetProfileImageUrl();
+    }
+
+    private async Task<string> GetProfileImageUrl()
+    {
+        // Az API URL-jét, amitől a kép URL-jét szeretnéd lekérni
+        string apiUrl = "https://api.myservice.com/user/profile/image";
+
+        // Elküldjük a GET kérést az API-nak
+        HttpResponseMessage response = await httpClient.GetAsync(apiUrl);
+
+        // Ellenőrizzük, hogy sikeres volt-e a kérés
+        if (response.IsSuccessStatusCode)
+        {
+            // Ha igen, akkor kiszedjük a válaszból a kép URL-jét
+            string imageUrl = await response.Content.ReadAsStringAsync();
+
+            return imageUrl;
+        }
+        else
+        {
+            // Ha nem, akkor hibát dobunk
+            throw new Exception("Nem sikerült lekérni a profilképet.");
+        }
+    }*/
+}

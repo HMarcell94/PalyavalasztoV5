@@ -1,0 +1,40 @@
+
+@page "/registration"
+@layout NoSidebarLayoutLayout
+
+<PageTitle>Registration</PageTitle>
+
+
+
+<div class="MultiGlassEffect" style="justify-content: center; text-align: center; border-top-left-radius: 20px; border-bottom-left-radius: 20px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; align-items: center; margin-left: 0px; margin-top: 0px; width: 50%; height: 100vh; float: right">
+    <h2 style="margin-top: 30px; color: white; text-align: center; ">Regisztráció</h2>
+        <div style="margin: auto; margin-top: 20%; width: 400px; height: 50vh; background-color: transparent; padding: auto;">
+                                    <RadzenTextBox 
+                                        @bind-Value="userreg.Email"
+                                        aria-label="enter e-mail" 
+                                        class="radzen-password" 
+                                        Placeholder="Email" Style="width: 400px; text-align: center; color: #000000" />
+                                    <RadzenPassword 
+                                        @bind-Value="userreg.Password"
+                                        aria-label="enter password" 
+                                        class="radzen-password" 
+                                        Placeholder="Jelszó" Style="width: 400px; text-align: center; color: #000000" />
+                                    <RadzenPassword 
+                                        @bind-Value="passwordAgain" 
+                                        aria-label="enter password again" 
+                                        class="radzen-password" 
+                                        Placeholder="Jelszó ismét" Style="width: 400px; text-align: center; color: #000000; border: 1px solid rgba(0, 0, 0, 0.18)" />
+
+                                    <div class="rz-p-12 rz-text-align-center">
+                                        <RadzenCheckBox @bind-Value=@userreg.Role Name="CheckBox1" />
+                                        <RadzenLabel Text="Munkáltatóként regisztrálok." Component="CheckBox1" Style="margin-top: 5px; margin-left: 8px; vertical-align: middle;" />
+                                    </div>
+
+                <RadzenButton Style="width: 147px; height: 31px; background-color:crimson" Text="Regisztrálok" Click="@_Registration" class="btnAnimation"></RadzenButton>
+        </div>
+</div>
+
+<div class="logopulse center-content">
+    <RadzenImage @onclick="NavigateToMain" Path="favicon.ico" Style="justify-content: center; text-align: center; width: 150px; height: 150px;"></RadzenImage>
+</div>
+

@@ -1,0 +1,110 @@
+<!--
+
+@page "/oneletrajz"
+@inject IHttpClientFactory HttpClientFactory
+
+
+@using Radzen.Blazor
+@using System.IO
+@using System.Text
+
+
+
+<style>
+  .preview-container {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .preview-image {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .upload-container {
+    width: 50%;
+    padding: 20px;
+  }
+</style>
+
+<h1>Önéletrajz</h1>
+
+<RadzenRow>
+  <RadzenColumn Size="6" Class="preview-container">
+    <RadzenImage @ref="previewImage" Source="@previewSource" Class="preview-image" />
+  </RadzenColumn>
+
+  <RadzenColumn Size="6" Class="upload-container">
+    <RadzenUpload @ref="upload" AllowedExtensions=".pdf" OnSelectAsync="@OnFileSelectedAsync">
+      <RadzenUploadButton Text="Fájlfeltöltés" />
+    </RadzenUpload>
+
+    <RadzenButton Text="Mentés" ClickAsync="@OnSaveAsync" Disabled="@(!hasSelectedFile)" />
+    <RadzenButton Text="Mégse" ClickAsync="@OnCancelAsync" />
+  </RadzenColumn>
+</RadzenRow>
+
+@code {
+  private RadzenImage previewImage;
+  private RadzenUpload upload;
+  private string previewSource;
+  private bool hasSelectedFile; // Renamed for clarity
+  static HttpClient client = new HttpClient();
+
+    static async Task<Employees> GetProductAsync(string path)
+    {
+        Employees product = null;
+        HttpResponseMessage response = await client.GetAsync(path);
+        if (response.IsSuccessStatusCode)
+        {
+            product = await response.Content.ReadAsStringAsync();
+        }
+        return product;
+    }
+
+
+
+private async Task OnFileSelectedAsync(IEnumerable<Radzen.Blazor.RadzenUploadFile> files)
+{
+  if (files.Count() > 0)
+  {
+    var file = files.First();
+    var reader = new System.IO.StreamReader(file.Stream, Encoding.GetEncoding(file.ContentType));
+    var content = await reader.ReadToEndAsync();
+
+    if (file.Extension.ToLowerInvariant() == ".pdf")
+    {
+      previewSource = "data:application/pdf;base64," + Convert.ToBase64String(Encoding.GetEncoding(file.ContentType).GetBytes(content));
+      hasSelectedFile = true;
+    }
+    else
+    {
+      // Hibaüzenet megjelenítése
+      Console.WriteLine("Csak PDF fájlokat engedélyezett!");
+    }
+  }
+}
+  private async Task OnSaveAsync()
+  {
+    // A feltöltött fájl mentése a szerverre
+    // ...
+
+    try
+    {
+      // Your code to save the file
+    }
+    catch (Exception ex)
+    {
+      // Handle errors here and display message to user
+    }
+
+    // Reset preview and selected state
+    previewSource = null;
+    hasSelectedFile = false;
+  }
+}
+
+-->
