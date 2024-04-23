@@ -17,7 +17,7 @@
         public string MinSalary { get; set; }
         public string MaxSalary { get; set; }
         public string? Short_Summary { get; set;}
-        public string picture { get; set; }
-        public string Extras { get; set; }
+        public string? picture { get; set; }
+        public string? Extras { get; set; }
     }
 }

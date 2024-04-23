@@ -1,5 +1,6 @@
 ﻿using JWTAuth.API.Dtos;
 using Palyavalaszto.Data.Entitites;
+using Palyavalaszto.Dto;
 using System.Security.Cryptography;
 
 namespace Palyavalaszto.Services
@@ -27,6 +28,7 @@ namespace Palyavalaszto.Services
             {
                 Email = userRegistration.Email,    
                 Password = HashPassword(userRegistration.Password, salt), 
+                RoleID = userRegistration.Role? 1 : 2,
                 salt = Convert.ToBase64String(salt)  
             };
         }

@@ -18,13 +18,14 @@ namespace Palyavalaszto.Services
         public string GenerateJwtToken(user users)
         {
             var tokenHandler = new JwtSecurityTokenHandler();
-            var key = Encoding.ASCII.GetBytes(_configuration["Jwt:Key"]);
+            var key = Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]);
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(new Claim[]
                 {
-                new Claim(ClaimTypes.Email, users.Email.ToString())
-
+                    new Claim(ClaimTypes.Email, users.Email.ToString()),
+                    new Claim(ClaimTypes.Role, users.RoleID.ToString()),
+                    //new Claim(ClaimTypes.Name) user nevét is hozzá kell adni
                 }),
                 Expires = DateTime.UtcNow.AddDays(7),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)

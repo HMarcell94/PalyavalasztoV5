@@ -1,106 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\",
+  "WorkspaceRootPath": "C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|c:\\users\\heged\\downloads\\\u00FAj mappa (11)\\\u00FAj mappa\\palyavalaszto\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|c:\\users\\36702\\desktop\\v5\\palyavalasztov5\\backend\\palyavalaszto (2)\\palyavalaszto\\dto\\employerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:dto\\employerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\interfaces\\iemployerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:interfaces\\iemployerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\interfaces\\iuserrepositorycs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:interfaces\\iuserrepositorycs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\controllers\\applicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:controllers\\applicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\interfaces\\iapplicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:interfaces\\iapplicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\repository\\applicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:repository\\applicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\services\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:services\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\controllers\\registrationlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:controllers\\registrationlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\data\\entitites\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:data\\entitites\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\data\\entitites\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:data\\entitites\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\controllers\\jobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:controllers\\jobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\controllers\\employercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:controllers\\employercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\data\\entitites\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:data\\entitites\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\data\\entitites\\employer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\data\\entitites\\employer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:data\\entitites\\employer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\controllers\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:controllers\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|c:\\users\\36702\\desktop\\v5\\palyavalasztov5\\backend\\palyavalaszto (2)\\palyavalaszto\\dto\\userregistrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:dto\\userregistrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\dto\\jobdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\controllers\\registrationlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:controllers\\registrationlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\data\\entitites\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:data\\entitites\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\dto\\jobdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:dto\\jobdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\controllers\\jobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:controllers\\jobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\data\\entitites\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:data\\entitites\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\palyavalaszto.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:palyavalaszto.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -110,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -122,304 +74,162 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IEmployerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Interfaces\\IEmployerRepository.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IEmployerRepository.cs",
-              "ToolTip": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Interfaces\\IEmployerRepository.cs",
-              "RelativeToolTip": "Interfaces\\IEmployerRepository.cs",
+              "DocumentIndex": 0,
+              "Title": "EmployerDto.cs",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\Dto\\EmployerDto.cs",
+              "RelativeDocumentMoniker": "Dto\\EmployerDto.cs",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\Dto\\EmployerDto.cs",
+              "RelativeToolTip": "Dto\\EmployerDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T14:32:01.35Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
-              "ToolTip": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "Controllers\\EmployeeController.cs",
-              "ViewState": "AQIAAK8AAAAAAAAAAAAcwMoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T07:08:53.288Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAAHgAAAAAAAAAAAAuwJ0AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T08:12:07.162Z",
+              "WhenOpened": "2024-04-23T13:18:18.633Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IUserRepositorycs.cs",
-              "DocumentMoniker": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Interfaces\\IUserRepositorycs.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IUserRepositorycs.cs",
-              "ToolTip": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Interfaces\\IUserRepositorycs.cs",
-              "RelativeToolTip": "Interfaces\\IUserRepositorycs.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "employer.cs",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\Data\\Entitites\\employer.cs",
+              "RelativeDocumentMoniker": "Data\\Entitites\\employer.cs",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\Data\\Entitites\\employer.cs",
+              "RelativeToolTip": "Data\\Entitites\\employer.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T14:32:36.499Z"
+              "WhenOpened": "2024-04-22T14:12:29.953Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Repository\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Repository\\UserRepository.cs",
-              "RelativeToolTip": "Repository\\UserRepository.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAA5wAAAAAAAAAAA",
+              "Title": "UserRegistrationDto.cs",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\Dto\\UserRegistrationDto.cs",
+              "RelativeDocumentMoniker": "Dto\\UserRegistrationDto.cs",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\Dto\\UserRegistrationDto.cs",
+              "RelativeToolTip": "Dto\\UserRegistrationDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T14:32:40.021Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Services\\UserService.cs",
-              "RelativeToolTip": "Services\\UserService.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCwAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T08:27:03.888Z"
+              "WhenOpened": "2024-04-22T12:42:44.995Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "IApplicationRepository.cs",
-              "DocumentMoniker": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Interfaces\\IApplicationRepository.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IApplicationRepository.cs",
-              "ToolTip": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Interfaces\\IApplicationRepository.cs",
-              "RelativeToolTip": "Interfaces\\IApplicationRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Title": "users.cs",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\Data\\Entitites\\users.cs",
+              "RelativeDocumentMoniker": "Data\\Entitites\\users.cs",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\Data\\Entitites\\users.cs",
+              "RelativeToolTip": "Data\\Entitites\\users.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAAAsAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T14:27:06.193Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ApplicationRepository.cs",
-              "DocumentMoniker": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Repository\\ApplicationRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\ApplicationRepository.cs",
-              "ToolTip": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Repository\\ApplicationRepository.cs",
-              "RelativeToolTip": "Repository\\ApplicationRepository.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAgwEEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T14:25:16.535Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ApplicationController.cs",
-              "DocumentMoniker": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Controllers\\ApplicationController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ApplicationController.cs",
-              "ToolTip": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Controllers\\ApplicationController.cs",
-              "RelativeToolTip": "Controllers\\ApplicationController.cs",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAAAJcAAAB2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T07:09:14.02Z"
+              "WhenOpened": "2024-04-22T12:37:04.49Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "JWTService.cs",
-              "DocumentMoniker": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Services\\JWTService.cs",
-              "RelativeDocumentMoniker": "Services\\JWTService.cs",
-              "ToolTip": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Services\\JWTService.cs",
-              "RelativeToolTip": "Services\\JWTService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAABAAAA",
+              "Title": "Palyavalaszto.http",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\Palyavalaszto.http",
+              "RelativeDocumentMoniker": "Palyavalaszto.http",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\Palyavalaszto.http",
+              "RelativeToolTip": "Palyavalaszto.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-04-22T12:21:07.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "job.cs",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\Data\\Entitites\\job.cs",
+              "RelativeDocumentMoniker": "Data\\Entitites\\job.cs",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\Data\\Entitites\\job.cs",
+              "RelativeToolTip": "Data\\Entitites\\job.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAowBQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T09:10:51.95Z"
+              "WhenOpened": "2024-04-22T08:55:00.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAApwB4AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T08:30:05.155Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Services\\IUserService.cs",
-              "RelativeDocumentMoniker": "Services\\IUserService.cs",
-              "ToolTip": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Services\\IUserService.cs",
-              "RelativeToolTip": "Services\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T08:26:38.208Z"
+              "WhenOpened": "2024-04-22T07:59:12.342Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAxwDUAAABPAAAA",
+              "DocumentIndex": 3,
+              "Title": "RegistrationLoginController.cs",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\Controllers\\RegistrationLoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RegistrationLoginController.cs",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\Controllers\\RegistrationLoginController.cs",
+              "RelativeToolTip": "Controllers\\RegistrationLoginController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBcAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T08:34:04.6Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-20T08:48:48.732Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "JobController.cs",
-              "DocumentMoniker": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Controllers\\JobController.cs",
-              "RelativeDocumentMoniker": "Controllers\\JobController.cs",
-              "ToolTip": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Controllers\\JobController.cs",
-              "RelativeToolTip": "Controllers\\JobController.cs",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAAAGEAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T06:48:54.729Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "job.cs",
-              "DocumentMoniker": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Data\\Entitites\\job.cs",
-              "RelativeDocumentMoniker": "Data\\Entitites\\job.cs",
-              "ToolTip": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Data\\Entitites\\job.cs",
-              "RelativeToolTip": "Data\\Entitites\\job.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwB8AAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T07:42:37.074Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IJWTService.cs",
-              "DocumentMoniker": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Services\\IJWTService.cs",
-              "RelativeDocumentMoniker": "Services\\IJWTService.cs",
-              "ToolTip": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Services\\IJWTService.cs",
-              "RelativeToolTip": "Services\\IJWTService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T09:13:21.57Z"
+              "WhenOpened": "2024-04-22T07:58:11.658Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "RegistrationLoginController.cs",
-              "DocumentMoniker": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Controllers\\RegistrationLoginController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RegistrationLoginController.cs",
-              "ToolTip": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Controllers\\RegistrationLoginController.cs",
-              "RelativeToolTip": "Controllers\\RegistrationLoginController.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAowCEAAAA9AAAA",
+              "Title": "JWTService.cs",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\Services\\JWTService.cs",
+              "RelativeDocumentMoniker": "Services\\JWTService.cs",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\Services\\JWTService.cs",
+              "RelativeToolTip": "Services\\JWTService.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwBsAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T08:24:53.114Z"
+              "WhenOpened": "2024-04-22T07:54:57.026Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "EmployerController.cs",
-              "DocumentMoniker": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Controllers\\EmployerController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EmployerController.cs",
-              "ToolTip": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Controllers\\EmployerController.cs",
-              "RelativeToolTip": "Controllers\\EmployerController.cs",
-              "ViewState": "AQIAAIEAAAAAAAAAAAAAAF4AAAA3AAAA",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAADMAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T12:34:04.722Z"
+              "WhenOpened": "2024-04-22T07:53:44.007Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "employee.cs",
-              "DocumentMoniker": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Data\\Entitites\\employee.cs",
-              "RelativeDocumentMoniker": "Data\\Entitites\\employee.cs",
-              "ToolTip": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Data\\Entitites\\employee.cs",
-              "RelativeToolTip": "Data\\Entitites\\employee.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T07:20:15.102Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "users.cs",
-              "DocumentMoniker": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Data\\Entitites\\users.cs",
-              "RelativeDocumentMoniker": "Data\\Entitites\\users.cs",
-              "ToolTip": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Data\\Entitites\\users.cs",
-              "RelativeToolTip": "Data\\Entitites\\users.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAA5wB8AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T13:25:11.924Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-20T08:54:38.953Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Role.cs",
-              "DocumentMoniker": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Controllers\\Role.cs",
-              "RelativeDocumentMoniker": "Controllers\\Role.cs",
-              "ToolTip": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Controllers\\Role.cs",
-              "RelativeToolTip": "Controllers\\Role.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwCEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T07:20:17.175Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 5,
               "Title": "JobDto.cs",
-              "DocumentMoniker": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Dto\\JobDto.cs",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\Dto\\JobDto.cs",
               "RelativeDocumentMoniker": "Dto\\JobDto.cs",
-              "ToolTip": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Dto\\JobDto.cs",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\Dto\\JobDto.cs",
               "RelativeToolTip": "Dto\\JobDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T07:46:40.761Z"
+              "WhenOpened": "2024-04-22T07:45:02.484Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "employer.cs",
-              "DocumentMoniker": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Data\\Entitites\\employer.cs",
-              "RelativeDocumentMoniker": "Data\\Entitites\\employer.cs",
-              "ToolTip": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\Data\\Entitites\\employer.cs",
-              "RelativeToolTip": "Data\\Entitites\\employer.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "DocumentIndex": 6,
+              "Title": "JobController.cs",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\Controllers\\JobController.cs",
+              "RelativeDocumentMoniker": "Controllers\\JobController.cs",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\Controllers\\JobController.cs",
+              "RelativeToolTip": "Controllers\\JobController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAApwBsAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T13:24:46.727Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "C:\\Users\\heged\\Downloads\\\u00DAj mappa (11)\\\u00DAj mappa\\Palyavalaszto\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-20T08:49:03.864Z"
+              "WhenOpened": "2024-04-22T07:44:01.565Z"
             }
           ]
         }

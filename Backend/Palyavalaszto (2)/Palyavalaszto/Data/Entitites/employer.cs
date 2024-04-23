@@ -22,7 +22,8 @@ using System.ComponentModel.DataAnnotations.Schema;
         public string? CompanyLogo { get; set; }
 
         public ICollection<job> jobs { get; set; }
-       public string CompanyLocation { get; set; }
+        public string CompanyLocation { get; set; }
+
         public int size {get; set; }
 
         public string enterprisetype {  get; set; }

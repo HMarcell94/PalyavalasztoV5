@@ -2993,19 +2993,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\heged\\.nuget\\packages\\": {}
+    "C:\\Users\\36702\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\heged\\Downloads\\Új mappa (11)\\Új mappa\\Palyavalaszto\\Palyavalaszto.csproj",
+      "projectUniqueName": "C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\Palyavalaszto.csproj",
       "projectName": "Palyavalaszto",
-      "projectPath": "C:\\Users\\heged\\Downloads\\Új mappa (11)\\Új mappa\\Palyavalaszto\\Palyavalaszto.csproj",
-      "packagesPath": "C:\\Users\\heged\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\heged\\Downloads\\Új mappa (11)\\Új mappa\\Palyavalaszto\\obj\\",
+      "projectPath": "C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\Palyavalaszto.csproj",
+      "packagesPath": "C:\\Users\\36702\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\36702\\Desktop\\V5\\PalyavalasztoV5\\Backend\\Palyavalaszto (2)\\Palyavalaszto\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\heged\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\36702\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3013,6 +3018,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3082,7 +3088,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

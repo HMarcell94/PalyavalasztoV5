@@ -1,6 +1,7 @@
 ﻿using JWTAuth.API.Dtos;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Palyavalaszto.Dto;
 using Palyavalaszto.Services;
 
 namespace Palyavalaszto.Controllers
@@ -18,30 +19,36 @@ namespace Palyavalaszto.Controllers
         [HttpPost("register")]
         public async Task<IActionResult> UserRegistration(UserRegistrationDto userRegistration)
         {
+            APIResponse response = new APIResponse();
             var result = await _userService.RegisterNewUserAsync(userRegistration);
             if (result.isUserRegistered)
             {
-
-                return Ok(result.Message);
+                return Ok(result);
             }
+            response.StatusCode = 1;
+            response.Message = result.Message;
             ModelState.AddModelError("Email", result.Message);
-            return BadRequest(ModelState);
+            return BadRequest(response);
         }
+
         [AllowAnonymous]
         [HttpPost("login")]
-        public async Task<IActionResult> Login(UserLoginDto userLogin)
+        public async Task<IActionResult> Login([FromBody] UserLoginDto userLogin)
         {
+            APIResponse<string> response = new APIResponse<string>();
             var result = await _userService.LoginUserAsync(userLogin);
             if (result.isUserLoggedIn)
             {
-               
-                return Ok(new { Token = result.jwtToken });
+                response.Data = result.jwtToken;
+                return Ok(response);
             }
             else
             {
+                response.Message = "Sikertelen bejelentkezés a következő felhasználónévvel: " + userLogin.Email;
+                response.StatusCode = 1;
                 Console.WriteLine("Sikertelen bejelentkezés a következő felhasználónévvel: " + userLogin.Email);
-                ModelState.AddModelError("Email", result.jwtToken);
-                return BadRequest(ModelState);
+                //ModelState.AddModelError("Email", result.jwtToken);
+                return BadRequest(response);
             }
         }
 
