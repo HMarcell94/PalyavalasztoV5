@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -13,7 +13,7 @@ using PalyavalsztoV4.Models.v4_1;
 
 namespace PalyavalsztoV4.Components
 {
-    public class AddCardComponent
+    public partial class AddCard
     {
         [Inject]
         protected IJSRuntime JSRuntime { get; set; }
@@ -33,24 +33,28 @@ namespace PalyavalsztoV4.Components
         [Inject]
         protected NotificationService NotificationService { get; set; }
 
+        [Parameter]
+        public int id { get; set; }
+
         job UjAd = new job();
 
+        protected override void OnParametersSet()
+        {
+            base.OnParametersSet();
+            Adcards();
+        }
         private async Task Adcards()
         {
             using (NetworkClient c = new NetworkClient())
             {
-                APIResponse r = await c.PostAsync<job, APIResponse>("/Job", UjAd);
+                APIResponse<job> r = await c.PostAsync<job, APIResponse<job>>($"/Job/{id}", UjAd);
                 if (r == null)
                 {
                     Console.WriteLine("Hiba történt a Hírdetés feltöltésekor.");
                 }
-                else
+                else 
                 {
-                    // sikeres regisztráció üzenet
-                    Console.WriteLine("Sikeres regisztráció!");
-
-                    // továbblépés a főoldalra
-                    NavigationManager.NavigateTo("/mainPage");
+                    UjAd = r.Data;
                 }
             }
         }

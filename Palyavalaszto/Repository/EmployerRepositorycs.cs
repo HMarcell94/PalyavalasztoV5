@@ -19,6 +19,7 @@ namespace Palyavalaszto.Repository
 
         public bool CreateEmployer(employer employer)
         {
+            employer.UserID = _context.users.OrderBy(a => a.UserID).Last().UserID;
             _context.Add(employer);
             return Save();
         }

@@ -44,13 +44,13 @@ namespace PalyavalsztoV4.Components.Pages
 
             if (string.IsNullOrEmpty(j.JobTitle))
             {
-                this.NotificationService.Notify(NotificationSeverity.Error, "Hiba", "A munkakör megnevezése kötelezõ.");
+                this.NotificationService.Notify(NotificationSeverity.Error, "Hiba", "A munkakï¿½r megnevezï¿½se kï¿½telezï¿½.");
             }
 
             if (string.IsNullOrEmpty(j.JobRequirements))
             {
-                this.NotificationService.Notify(NotificationSeverity.Error, "Hiba", "A munkakövetelmények megnevezése kötelezõ.");
-                validationErrors.Add("A munkakövetelmények megnevezése kötelezõ.");
+                this.NotificationService.Notify(NotificationSeverity.Error, "Hiba", "A munkakï¿½vetelmï¿½nyek megnevezï¿½se kï¿½telezï¿½.");
+                validationErrors.Add("A munkakï¿½vetelmï¿½nyek megnevezï¿½se kï¿½telezï¿½.");
             }
 
             if (string.IsNullOrEmpty(j.Extras))
@@ -59,35 +59,35 @@ namespace PalyavalsztoV4.Components.Pages
 
             if (string.IsNullOrEmpty(j.JobDescription))
             {
-                this.NotificationService.Notify(NotificationSeverity.Error, "Hiba", "A munkakör leírását megadni kötelezõ.");
-                validationErrors.Add("A munkakör leírását megadni kötelezõ.");
+                this.NotificationService.Notify(NotificationSeverity.Error, "Hiba", "A munkakï¿½r leï¿½rï¿½sï¿½t megadni kï¿½telezï¿½.");
+                validationErrors.Add("A munkakï¿½r leï¿½rï¿½sï¿½t megadni kï¿½telezï¿½.");
             }
 
             if (string.IsNullOrEmpty(j.JobLocation))
             {
-                this.NotificationService.Notify(NotificationSeverity.Error, "Hiba", "A munka helymeghatározását megadni kötelezõ.");
-                validationErrors.Add("A munka helymeghatározását megadni kötelezõ.");
+                this.NotificationService.Notify(NotificationSeverity.Error, "Hiba", "A munka helymeghatï¿½rozï¿½sï¿½t megadni kï¿½telezï¿½.");
+                validationErrors.Add("A munka helymeghatï¿½rozï¿½sï¿½t megadni kï¿½telezï¿½.");
             }
 
             if (string.IsNullOrEmpty(j.MinSalary))
             {
-                this.NotificationService.Notify(NotificationSeverity.Error, "Hiba", "A munkakör minimum bérét megadni kötelezõ.");
-                validationErrors.Add("A munkakör minimum bérét megadni kötelezõ.");
+                this.NotificationService.Notify(NotificationSeverity.Error, "Hiba", "A munkakï¿½r minimum bï¿½rï¿½t megadni kï¿½telezï¿½.");
+                validationErrors.Add("A munkakï¿½r minimum bï¿½rï¿½t megadni kï¿½telezï¿½.");
             }
 
             if (string.IsNullOrEmpty(j.MaxSalary))
             {
-                this.NotificationService.Notify(NotificationSeverity.Error, "Hiba", "A munkakör maximum bérét megadni kötelezõ.");
-                validationErrors.Add("A munkakör maximum bérét megadni kötelezõ.");
+                this.NotificationService.Notify(NotificationSeverity.Error, "Hiba", "A munkakï¿½r maximum bï¿½rï¿½t megadni kï¿½telezï¿½.");
+                validationErrors.Add("A munkakï¿½r maximum bï¿½rï¿½t megadni kï¿½telezï¿½.");
             }
 
 
             if (validationErrors.Any())
             {
-                this.NotificationService.Notify(NotificationSeverity.Error, "Hiba", "Valamilyen adatot nem megfelelõen adott meg.");
-                validationErrors.Add("Valamilyen adatot nem megfelelõen adott meg.");
+                this.NotificationService.Notify(NotificationSeverity.Error, "Hiba", "Valamilyen adatot nem megfelelï¿½en adott meg.");
+                validationErrors.Add("Valamilyen adatot nem megfelelï¿½en adott meg.");
 
-                return; // A mentés megszakítása
+                return; // A mentï¿½s megszakï¿½tï¿½sa
             }
 
             using (NetworkClient c = new NetworkClient())
@@ -95,11 +95,11 @@ namespace PalyavalsztoV4.Components.Pages
                 APIResponse r = await c.PostAsync<job, APIResponse>("/api/Job", j, TokenStore.Token);
                 if (r.StatusCode == 0)
                 {
-                    // siker esetén
+                    // siker esetï¿½n
                 }
                 else
                 {
-                    // sikertelenség esetén
+                    // sikertelensï¿½g esetï¿½n
                 }
             }
         }

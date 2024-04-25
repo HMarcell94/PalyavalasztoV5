@@ -46,11 +46,7 @@ namespace PalyavalsztoV4.Components.Pages
                 }
                 else
                 {
-                    // sikeres regisztráció üzenet
-                    Console.WriteLine("Sikeres regisztráció!");
 
-                    // továbblépés a fõoldalra
-                    NavigationManager.NavigateTo("/mainPage");
                 }
             }
         }
