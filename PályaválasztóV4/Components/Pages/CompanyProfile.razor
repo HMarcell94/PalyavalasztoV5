@@ -34,32 +34,5 @@
     
     string userProfileImageUrl;
     HttpClient httpClient = new HttpClient();
-/*
-    protected override async Task OnInitializedAsync()
-    {
-        userProfileImageUrl = await GetProfileImageUrl();
-    }
 
-    private async Task<string> GetProfileImageUrl()
-    {
-        // Az API URL-jét, amitől a kép URL-jét szeretnéd lekérni
-        string apiUrl = "https://api.myservice.com/user/profile/image";
-
-        // Elküldjük a GET kérést az API-nak
-        HttpResponseMessage response = await httpClient.GetAsync(apiUrl);
-
-        // Ellenőrizzük, hogy sikeres volt-e a kérés
-        if (response.IsSuccessStatusCode)
-        {
-            // Ha igen, akkor kiszedjük a válaszból a kép URL-jét
-            string imageUrl = await response.Content.ReadAsStringAsync();
-
-            return imageUrl;
-        }
-        else
-        {
-            // Ha nem, akkor hibát dobunk
-            throw new Exception("Nem sikerült lekérni a profilképet.");
-        }
-    }*/
 }

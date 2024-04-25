@@ -3,80 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\controllers\\employercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:controllers\\employercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\data\\entitites\\employer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:data\\entitites\\employer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\dto\\employerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:dto\\employerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|c:\\users\\36702\\desktop\\final palyavalaszto\\palyavalaszto\\controllers\\registrationlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:controllers\\registrationlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\dto\\userregistrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:dto\\userregistrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\dto\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:dto\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\data\\entitites\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:data\\entitites\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\data\\entitites\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:data\\entitites\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\data\\entitites\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:data\\entitites\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\data\\entitites\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:data\\entitites\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\data\\entitites\\applications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:data\\entitites\\applications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\dto\\jobdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:dto\\jobdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\controllers\\jobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:controllers\\jobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\palyavalaszto.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:palyavalaszto.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|c:\\users\\36702\\desktop\\final palyavalaszto\\palyavalaszto\\repository\\employerrepositorycs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68935C14-8BE0-49AB-BEA3-A9CE359B5F78}|Palyavalaszto.csproj|solutionrelative:repository\\employerrepositorycs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,235 +26,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EmployeeDto.cs",
-              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Dto\\EmployeeDto.cs",
-              "RelativeDocumentMoniker": "Dto\\EmployeeDto.cs",
-              "ToolTip": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Dto\\EmployeeDto.cs",
-              "RelativeToolTip": "Dto\\EmployeeDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T15:00:07.659Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EmployerController.cs",
-              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Controllers\\EmployerController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EmployerController.cs",
-              "ToolTip": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Controllers\\EmployerController.cs",
-              "RelativeToolTip": "Controllers\\EmployerController.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAUwCsAAAAhAAAA",
+              "Title": "EmployerRepositorycs.cs",
+              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Repository\\EmployerRepositorycs.cs",
+              "RelativeDocumentMoniker": "Repository\\EmployerRepositorycs.cs",
+              "ToolTip": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Repository\\EmployerRepositorycs.cs",
+              "RelativeToolTip": "Repository\\EmployerRepositorycs.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAWwBQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T14:59:56.765Z",
+              "WhenOpened": "2024-04-25T14:27:15.162Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
-              "ToolTip": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "Controllers\\EmployeeController.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAowCMAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T14:54:16.988Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "role.cs",
-              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Data\\Entitites\\role.cs",
-              "RelativeDocumentMoniker": "Data\\Entitites\\role.cs",
-              "ToolTip": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Data\\Entitites\\role.cs",
-              "RelativeToolTip": "Data\\Entitites\\role.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T14:50:48.125Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "employee.cs",
-              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Data\\Entitites\\employee.cs",
-              "RelativeDocumentMoniker": "Data\\Entitites\\employee.cs",
-              "ToolTip": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Data\\Entitites\\employee.cs",
-              "RelativeToolTip": "Data\\Entitites\\employee.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAAwCkAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T14:50:28.973Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EmployerDto.cs",
-              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Dto\\EmployerDto.cs",
-              "RelativeDocumentMoniker": "Dto\\EmployerDto.cs",
-              "ToolTip": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Dto\\EmployerDto.cs",
-              "RelativeToolTip": "Dto\\EmployerDto.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA7wBMAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T14:47:51.76Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "employer.cs",
-              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Data\\Entitites\\employer.cs",
-              "RelativeDocumentMoniker": "Data\\Entitites\\employer.cs",
-              "ToolTip": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Data\\Entitites\\employer.cs",
-              "RelativeToolTip": "Data\\Entitites\\employer.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAA/wB0AAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T14:12:29.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserRegistrationDto.cs",
-              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Dto\\UserRegistrationDto.cs",
-              "RelativeDocumentMoniker": "Dto\\UserRegistrationDto.cs",
-              "ToolTip": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Dto\\UserRegistrationDto.cs",
-              "RelativeToolTip": "Dto\\UserRegistrationDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T12:42:44.995Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "users.cs",
-              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Data\\Entitites\\users.cs",
-              "RelativeDocumentMoniker": "Data\\Entitites\\users.cs",
-              "ToolTip": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Data\\Entitites\\users.cs",
-              "RelativeToolTip": "Data\\Entitites\\users.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T12:37:04.49Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "job.cs",
-              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Data\\Entitites\\job.cs",
-              "RelativeDocumentMoniker": "Data\\Entitites\\job.cs",
-              "ToolTip": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Data\\Entitites\\job.cs",
-              "RelativeToolTip": "Data\\Entitites\\job.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAYwCUAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T08:55:00.334Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RegistrationLoginController.cs",
-              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Controllers\\RegistrationLoginController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RegistrationLoginController.cs",
-              "ToolTip": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Controllers\\RegistrationLoginController.cs",
-              "RelativeToolTip": "Controllers\\RegistrationLoginController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T07:58:11.658Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "applications.cs",
-              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Data\\Entitites\\applications.cs",
-              "RelativeDocumentMoniker": "Data\\Entitites\\applications.cs",
-              "ToolTip": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Data\\Entitites\\applications.cs",
-              "RelativeToolTip": "Data\\Entitites\\applications.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T14:50:10.615Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Palyavalaszto.http",
-              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Palyavalaszto.http",
-              "RelativeDocumentMoniker": "Palyavalaszto.http",
-              "ToolTip": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Palyavalaszto.http",
-              "RelativeToolTip": "Palyavalaszto.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-04-22T12:21:07.192Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Services\\UserService.cs",
-              "RelativeToolTip": "Services\\UserService.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAApwB4AAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T08:30:05.155Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T07:59:12.342Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "JWTService.cs",
-              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Services\\JWTService.cs",
-              "RelativeDocumentMoniker": "Services\\JWTService.cs",
-              "ToolTip": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Services\\JWTService.cs",
-              "RelativeToolTip": "Services\\JWTService.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAYwBsAAABOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T07:54:57.026Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAADMAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T07:53:44.007Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "JobDto.cs",
-              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Dto\\JobDto.cs",
-              "RelativeDocumentMoniker": "Dto\\JobDto.cs",
-              "ToolTip": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Dto\\JobDto.cs",
-              "RelativeToolTip": "Dto\\JobDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T07:45:02.484Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "JobController.cs",
-              "DocumentMoniker": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Controllers\\JobController.cs",
-              "RelativeDocumentMoniker": "Controllers\\JobController.cs",
-              "ToolTip": "C:\\Users\\36702\\Desktop\\Final Palyavalaszto\\Palyavalaszto\\Controllers\\JobController.cs",
-              "RelativeToolTip": "Controllers\\JobController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAApwBsAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T07:44:01.565Z"
             }
           ]
         }
